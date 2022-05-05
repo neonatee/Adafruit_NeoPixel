@@ -13,7 +13,7 @@ set(includedirs
 )
 
 set(requires arduino)
-   # Build ArduinoJson as an ESP-IDF component
+# Build Adafruit_NeoPixel as an ESP-IDF component
 idf_component_register(INCLUDE_DIRS ${includedirs} SRCS ${srcs} REQUIRES ${requires})
 
 
