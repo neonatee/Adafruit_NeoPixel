@@ -17,4 +17,4 @@ set(requires arduino)
 idf_component_register(INCLUDE_DIRS ${includedirs} SRCS ${srcs} REQUIRES ${requires})
 
 
-project(Adafruit_NeoPixel VERSION 1.10.3)
+project(Adafruit_NeoPixel VERSION 1.10.4)
