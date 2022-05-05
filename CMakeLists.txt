@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)
 
 set(LIBRARY_SRCS
   Adafruit_NeoPixel.cpp
-  esp.cpp
+  esp.c
 )
 set(srcs ${LIBRARY_SRCS})
 
